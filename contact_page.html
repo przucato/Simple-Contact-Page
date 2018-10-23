@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Page</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<style type="text/css">
+	.add-padding-top {
+		padding-top: 30px;
+	}
+</style>
+</head>
+
+
+<body>
+	<div  class="container add-padding-top">
+		<div class="row">
+			<div class="col-lg-9">
+				<h2> Send us&nbsp;your message:</h2>
+
+				<form action="mail_handler.php" method="post" id="contact-form" role="form">
+					<div class="form-group">
+						<div>
+							<label for="name">Name:</label>
+							<input type="text" class="form-control" name="name" required="true">
+						</div>
+					</div>
+					<div class="form-group">
+						<div>
+							<label for="email">E-mail:</label>
+							<input type="email" class="form-control" name="email" required="true">
+						</div>
+					</div>
+					<div class="form-group">
+						<div>
+							<label for="message">Message:</label>
+							<textarea class="form-control" name="message" required="true"></textarea> 
+						</div>
+					</div>
+					<input class="btn btn-default" name="submit" type="submit" value="Submit">
+				</form>
+			</div>
+
+			<div class="col-lg-3 jumbotron">
+				<p> 
+					<h4> Our Adress:</h4>
+				</p>
+				<p>
+					Street name, number, city
+				</p>
+				<p> 
+					<h4> Our Phone Number:</h4>
+				</p>
+				<p>
+					+55 19 9999 9999
+				</p>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
