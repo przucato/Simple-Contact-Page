@@ -5,7 +5,7 @@ ini_set('display_errors', 'On');
 set_error_handler("var_dump");
 
 if(isset($_POST['submit'])){
-    $to = "pri.zucato@hotmail.com"; // this is the Email address where you want to receive the mess
+    $to = "leandro@calina.ag";// this is the Email address where you want to receive the message
     $from = $_POST['email']; // this is the sender's Email address
     $name = $_POST['name'];// this is the sender's name
     $subject = "Form submission";
